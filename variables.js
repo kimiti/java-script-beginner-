@@ -5,3 +5,26 @@ for(i=0;i<sortarray.length;i++)
 {
   	console.log(num(i));
 };
+
+
+
+
+
+
+function factorial(num)
+{
+	if (num <=1) {
+		return 1;
+	}else {
+		return num = factorial(num - 1) + factorial(num - 2);
+	}
+}
+factorial(4);
+
+
+
+function fibonacci(num) {
+  if (num <= 1) return 1;
+
+  return fibonacci(num - 1) + fibonacci(num - 2);
+}
